@@ -12,7 +12,6 @@ def random_insult():
         "I can smell the mustiness off of you",
         "If I speak what is on my mind, I will get arrested.",
         "Average league of legends player.",
-        "KYS... which stands for Keep Yourself Safe :)",
         "...",
         "I have no words",
         "Whatever happened to shame?",
