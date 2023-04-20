@@ -13,6 +13,7 @@ def random_insult():
         "If I speak what is on my mind, I will get arrested.",
         "Average league of legends player.",
         "...",
+    
         "I have no words",
         "Whatever happened to shame?",
         "Thanos was right.",
