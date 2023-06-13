@@ -67,9 +67,6 @@ def get_responses(input_string):
             suggest = "Try searching: '" + p_message + "' on Google"
             return suggest
 
-        if p_message == 'is nathan dead?':
-            return 'He is but he can make a resurrection.(-_-!)'
-
         if p_message == 'help':
             response = '`Words I will respond to: \n'
             response = response + 'hello\n'
@@ -80,7 +77,7 @@ def get_responses(input_string):
             return response
         
         if p_message == 'joke':
-            url = "https://v2.jokeapi.dev/joke/Dark"
+            url = "https://v2.jokeapi.dev/joke/Any"
 
             response = requests.get(url, 
                 headers={
