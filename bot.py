@@ -39,9 +39,7 @@ def run_discord_bot():
             await send_message(message, user_message, is_private=True)
         else:
             await send_message(message, user_message, is_private=False)
-        if message.content[0:9] == "your mama" or message.content[0:9] == "Your mama":
-            await message.delete()
-            await message.channel.send("How about I end your life?")
+        
     
     client.run(token)
 
