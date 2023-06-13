@@ -78,7 +78,7 @@ def get_response(message: str) -> str:
             return response
         
         if p_message == 'joke':
-            url = "https://v2.jokeapi.dev/joke/Dark"
+            url = "https://v2.jokeapi.dev/joke/Any"
 
             response = requests.get(url, 
                 headers={
@@ -104,5 +104,3 @@ def get_response(message: str) -> str:
         #    return 'I don\'t understand.'
     message = message.lower()
 
-    if message[0:8] == 'p!rule34':
-        return random_jokes.random_insult()
